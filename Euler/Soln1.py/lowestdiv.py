@@ -2,17 +2,13 @@ number = 1
 div = 1
 answer = 0
 
-while div <=10 and answer != 10:
-
-    if number % div == 0:
-    
-        answer += 1
-        div += 1
-    
-    else:
-
-        div = 1
-
-print (number)
-print (div)
-
+for i in range(1-10):
+    while answer != 0:
+        if number % i == 0:
+            answer += 1
+            i += 1
+        else:
+            answer = 0
+            i = 1
+            number += 1
+print(number)
