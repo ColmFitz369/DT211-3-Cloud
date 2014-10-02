@@ -14,4 +14,5 @@ while div <=10 and answer != 10:
         div = 1
 
 print (number)
+print (div)
 
